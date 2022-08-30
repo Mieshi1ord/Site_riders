@@ -1,0 +1,125 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  ul{
+    
+    font-size: 18px;
+    list-style-type: none;
+    display: inline;
+    
+  }
+
+
+  a{
+    font-size: 18px;
+    color: #8d8176;
+    text-decoration: none !important;
+    border: none !important;
+    }
+    
+  li{
+    
+    display: inline;
+  }
+  .container {
+    position: fixed;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container-fluid .content {
+    position: absolute; /* Position the background text */
+    bottom: 500px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-align: center;
+
+}
+
+
+
+
+/*FORM-TAG*/
+#FORM {
+  
+  position: absolute;
+  margin-left: 100px;
+  display: none;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+#FORM.open {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/*FOOTER CLASS*/
+
+.footer{
+  background-color: black;
+}
+
+
+.Viber{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(/social/icons8-viber-48.png);
+}
+
+.WhatsApp{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(/social/icons8-whatsapp-48.png);
+}
+
+
+
+
+/*Приемущества ...*/
+
+
+.scale {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+
+.number1{
+  
+  width: 100%;
+  text-align: justify;
+}
+
+
+.number2{
+  
+  width: 100%;
+  text-align: justify;
+}
